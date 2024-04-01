@@ -26,6 +26,7 @@ void setup() {
     Serial.begin(115200);
 
     Camera.configVideoChannel(CHANNEL, config);
+    
     Camera.videoInit();
     Camera.channelBegin(CHANNEL);
 
