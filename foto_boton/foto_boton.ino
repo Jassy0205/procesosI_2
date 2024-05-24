@@ -9,7 +9,7 @@ VideoSetting config(VIDEO_FHD, CAM_FPS, VIDEO_JPEG, 1);
 // VideoSetting config(1072, 1072, CAM_FPS, VIDEO_JPEG, 1);  // Puedes comentar la línea anterior y descomentar esta para una resolución personalizada
 
 char ssid[] = "L.J.J";   // Tu SSID de red
-char pass[] = "mitsubishi1";       // Tu contraseña de red
+char pass[] = "jj@?78martes";       // Tu contraseña de red
 int status = WL_IDLE_STATUS;
 WiFiServer server(80);
 

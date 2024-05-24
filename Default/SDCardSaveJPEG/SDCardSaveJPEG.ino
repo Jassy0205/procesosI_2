@@ -22,14 +22,14 @@ bool captureImage = false;
 AmebaFatFS fs;
 
 void setup() {
-    Serial.begin(115200);
-    pinMode(BUTTON_PIN, INPUT);  // Configura el pin del botón como entrada
+  Serial.begin(115200);
+  pinMode(BUTTON_PIN, INPUT);  // Configura el pin del botón como entrada
 
-    Camera.configVideoChannel(CHANNEL, config);
-    Camera.videoInit();
-    Camera.channelBegin(CHANNEL);
+  Camera.configVideoChannel(CHANNEL, config);
+  Camera.videoInit();
+  Camera.channelBegin(CHANNEL);
 
-    fs.begin();
+  fs.begin();
 }
 
 void loop() {
